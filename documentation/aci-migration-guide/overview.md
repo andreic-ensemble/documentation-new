@@ -17,6 +17,21 @@ export PGPASSWORD="<auditlog-password>"
 psql -h dbhostname -d brainwave -U auditlog -p 5432 -f 300-auditlog.sql
 ```
 
+```bash
+test"quote"
+```
+
+
+```bash
+test<angle_bracket>
+```
+
+
+
+```bash
+test=equal
+```
+
 # Overview
 
 Part of the process to migrate from a legacy LDAP directory into RadiantOne Universal
