@@ -3,6 +3,20 @@ title: ACI Migration Guide
 description: ACI Migration Guide
 ---
 
+
+```bash
+export PGPASSWORD="<igrc-password>"
+psql -h dbhostname -d brainwave -U igrc -p 5432 -f 100-ledger.sql
+
+export PGPASSWORD="<activiti-password>"
+psql -h dbhostname -d brainwave -U activiti -p 5432 -f 200-activiti.postgres.create.engine.sql
+psql -h dbhostname -d brainwave -U activiti -p 5432 -f 210-activiti.postgres.create.identity.sql
+psql -h dbhostname -d brainwave -U activiti -p 5432 -f 220-activiti.postgres.create.history.sql
+
+export PGPASSWORD="<auditlog-password>"
+psql -h dbhostname -d brainwave -U auditlog -p 5432 -f 300-auditlog.sql
+```
+
 # Overview
 
 Part of the process to migrate from a legacy LDAP directory into RadiantOne Universal
