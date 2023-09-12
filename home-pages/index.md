@@ -3,6 +3,15 @@ title: Knowledge
 description: knowledge
 ---
 
+<tabs>
+  <tablist>
+    <tab>Knowledge</tab>
+    <tab>Developer</tab>
+  </tablist>
+
+<tabpanels>
+  <tabpanel>
+
 # Welcome to RadiantOne Identity Data Management!
 
 Harness your identity data with intelligent integration to drive better business outcomes, improve security and compliance posture, increase speed-to-market, and more. Browse below to learn more about the capabilities and components that comprise Identity Data Management and link to the user guides to help get you started.
@@ -125,3 +134,9 @@ Harness your identity data with intelligent integration to drive better business
   > Learn how to use the Password Filter component to synchronization passwords from accounts in Active Directory to other directory targets.
   
 </section>
+
+</tabpanel>
+
+</tabpanels>
+</tabs>
+
