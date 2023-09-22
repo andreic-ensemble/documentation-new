@@ -50,3 +50,7 @@ Technical support can be reached using the following options:
 [**Release notes**]({% link ibm-tivoli-directory-aci-migration.md#running-the-ibm-aci-migration-utility.md %})
 [**Release notes**]( {% link ibm-tivoli-directory-aci-migration.md#running-the-ibm-aci-migration-utility.md %} )
 [Release notes]( {% link ibm-tivoli-directory-aci-migration.md#running-the-ibm-aci-migration-utility.md %} )
+
+[**Release notes**](link ibm-tivoli-directory-aci-migration.md#running-the-ibm-aci-migration-utility.md)
+
+[**Release notes**](ibm-tivoli-directory-aci-migration.md#running-the-ibm-aci-migration-utility.md)
