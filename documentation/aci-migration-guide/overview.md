@@ -46,3 +46,5 @@ Technical support can be reached using the following options:
 
 - E-mail: support@radiantlogic.com
 - Website: http://support.radiantlogic.com
+
+[**Release notes**]({% link ibm-tivoli-directory-aci-migration.md#running-the-ibm-aci-migration-utility.md %})
